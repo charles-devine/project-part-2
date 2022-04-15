@@ -9,7 +9,7 @@ public class Patient {
     private String city;
     private String province;
     private String password;
-    private String ssn;
+    private int ssn;
     private String gender;
     private String email;
     private String dateOfBirth;
@@ -24,7 +24,7 @@ public class Patient {
         String city,
         String province,
         String password,
-        String ssn,
+        int ssn,
         String gender,
         String email,
         String dateOfBirth,
@@ -43,5 +43,58 @@ public class Patient {
         this.email = email;
         this.dateOfBirth = dateOfBirth;
         this.insurance = insurance;
+    }
+
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getHouseNumber() {
+        return houseNumber;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getProvince() {
+        return province;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public int getSsn() {
+        return ssn;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String getInsurance() {
+        return insurance;
     }
 }
