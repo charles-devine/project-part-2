@@ -25,6 +25,14 @@ public class SetPatientAppointment extends AppCompatActivity {
 
                         // DATABASE HERE
 
+                        // user id
+                        // date
+                        // start time
+                        // end time
+                        // appt type
+                        // status
+                        // room num
+
                         Util.alert("Appointment Set.", SetPatientAppointment.this);
                     }
                 }

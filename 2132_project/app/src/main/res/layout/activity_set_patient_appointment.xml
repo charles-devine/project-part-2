@@ -24,7 +24,7 @@
                 android:id="@+id/setApptTitleID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Set Patient Appointments"
+                android:text="Set Patient Appointment"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 

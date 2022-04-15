@@ -25,6 +25,13 @@ public class SelfPatientAppointment extends AppCompatActivity {
 
                         // DATABASE HERE
 
+                        // user id
+                        // date
+                        // start time
+                        // end time
+                        // appointment type?
+
+
                         Util.alert("Appointment Set.", SelfPatientAppointment.this);
                     }
                 }
