@@ -53,16 +53,7 @@ public class ReceptionistActivity extends AppCompatActivity {
                     }
                 }
         );
-
-
-
-
-
     }
-
-
-
-
 
 
 }

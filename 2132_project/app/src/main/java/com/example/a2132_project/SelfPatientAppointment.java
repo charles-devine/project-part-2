@@ -7,35 +7,35 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SetPatientAppointment extends AppCompatActivity {
+public class SelfPatientAppointment extends AppCompatActivity {
 
-    private Button set_appointment;
+    private Button set_self_appointment;
     private Button go_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_set_patient_appointment);
+        setContentView(R.layout.activity_self_patient_appointment);
 
-        /* set appointment activity */
-        set_appointment = (Button) findViewById(R.id.set_appointment_id);
-        set_appointment.setOnClickListener(
+        /* set_self_appointment */
+        set_self_appointment = (Button) findViewById(R.id.self_appt_id);
+        set_self_appointment.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
 
                         // DATABASE HERE
 
-                        Util.alert("Appointment Set.", SetPatientAppointment.this);
+                        Util.alert("Appointment Set.", SelfPatientAppointment.this);
                     }
                 }
         );
 
-        /* set appointment activity */
-        go_back = (Button) findViewById(R.id.back_to_receptionist);
+        /* go back to patient ui */
+        go_back = (Button) findViewById(R.id.self_back_to_receptionist);
         go_back.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent signUp = new Intent(SetPatientAppointment.this, ReceptionistActivity.class);
+                        Intent signUp = new Intent(SelfPatientAppointment.this, PatientActivity.class);
                         startActivity(signUp);
                     }
                 }

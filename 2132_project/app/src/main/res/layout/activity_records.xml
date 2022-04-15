@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PatientActivity">
+    tools:context=".RecordsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,10 +13,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/patient_title_id"
+            android:id="@+id/records_title_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome Patient!"
+            android:text="Patient Records"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
             android:layout_height="25dp" />
 
         <TextView
-            android:id="@+id/patient_id_title"
+            android:id="@+id/records_patient_id_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -40,17 +40,13 @@
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
 
-        <Button
-            android:id="@+id/records_btn"
-            android:layout_width="250dp"
+        <TextView
+            android:id="@+id/medical_records_title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Upcoming Appointments and medical history" />
-
-        <Button
-            android:id="@+id/set_appointments_for_patients_btn"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="set appointment" />
+            android:layout_gravity="center"
+            android:text="Medical Records: "
+            android:textSize="20sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -58,10 +54,11 @@
 
 
         <Button
-            android:id="@+id/login_patient"
+            android:id="@+id/records_loging_btn"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="@string/back_to_login_page" />
 
     </LinearLayout>
+
 </RelativeLayout>
