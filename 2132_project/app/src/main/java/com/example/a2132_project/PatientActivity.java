@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Spinner;
 
 public class PatientActivity extends AppCompatActivity {
 
     private Button back_to_login;
     private Button records_btn;
     private Button set_appointment;
+    private Spinner user_id_spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,7 @@ public class PatientActivity extends AppCompatActivity {
 
         // spinner
 
-        // patient_spinner_id
+        // user_id_spinner
 
         // figure out how to get all patient names from database to display
 
@@ -29,7 +31,7 @@ public class PatientActivity extends AppCompatActivity {
         records_btn.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent signUp = new Intent(PatientActivity.this, MainActivity.class);
+                        Intent signUp = new Intent(PatientActivity.this, RecordsActivity.class);
                         startActivity(signUp);
                     }
                 }

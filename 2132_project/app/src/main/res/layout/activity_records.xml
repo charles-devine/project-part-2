@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Patient ID: "
+            android:text="Appointment(s): "
             android:textSize="20sp" />
 
         <Spinner
@@ -45,8 +45,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Medical Records: "
+            android:text="Medical Record(s): "
             android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/medical_records_field"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
         <Space
             android:layout_width="match_parent"
@@ -57,7 +64,7 @@
             android:id="@+id/records_loging_btn"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="@string/back_to_login_page" />
+            android:text="back to patient page" />
 
     </LinearLayout>
 
