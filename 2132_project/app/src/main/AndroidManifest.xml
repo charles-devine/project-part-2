@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.2132_project">
         <activity
+            android:name=".ViewRecords"
+            android:exported="false" />
+        <activity
             android:name=".RecordsActivity"
             android:exported="false" />
         <activity
