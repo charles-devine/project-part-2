@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/charl/AndroidStudioProjects/2132_project/app/src/main/res/layout/activity_dentist.xml" value="0.1" />
+        <entry key="..\:/Users/charl/AndroidStudioProjects/2132_project/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/charl/AndroidStudioProjects/2132_project/app/src/main/res/layout/activity_patient.xml" value="0.1" />
+        <entry key="..\:/Users/charl/AndroidStudioProjects/2132_project/app/src/main/res/layout/activity_receptionist.xml" value="0.1" />
+        <entry key="..\:/Users/charl/Desktop/2132 projecty/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_addPatient.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_add_patient_info.xml" value="0.33" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_patient.xml" value="0.30570652173913043" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_receptionist.xml" value="0.5" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_set_appointments_receptionist.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/charl/Desktop/aigehjai/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_set_patient_appointment.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_addPatient.xml" value="0.3671875" />
+        <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_addpatient.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_receptionist.xml" value="0.3671875" />
+        <entry key="app/src/main/res/layout/activity_addPatient.xml" value="0.16894630192502533" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

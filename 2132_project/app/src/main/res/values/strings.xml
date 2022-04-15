@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2132_project</string>
+    <string name="receptionist_login">Receptionist Login</string>
+    <string name="edit_patient_info">Edit Patient Info</string>
+    <string name="welcome_receptionist">Welcome Receptionist!</string>
+    <string name="back_to_login_page">Back to Login Page</string>
+    <string name="add_patient_info">add patient info</string>
+    <string name="set_patient_appointment">set patient appointment</string>
+</resources>

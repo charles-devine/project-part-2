@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPatientInfo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/title_add_patient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add New Patient Information"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/firstName_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="First Name: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/firstName_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/middleName_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Middle Name: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/middleName_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    android:hint="Optional"
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+=======
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lastName_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Last Name: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/lastName_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+=======
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ssn_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SSN: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ssn_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+=======
+                    android:hint="Optional"
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/houseNo_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="House No.: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/houseNo_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+=======
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/street_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Street: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/street_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+=======
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/city_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="City: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/city_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/province_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Province: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/province_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+=======
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/email_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Email: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/email_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/password_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Password: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/password_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    android:inputType="textPersonName"/>
+
+=======
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/insurance_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Insurance: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/insurance_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                    android:inputType="textPersonName"/>
+
+=======
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dob_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Date of birth: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/dob_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint=" mm/dd/yyyy"
+                    android:inputType="textPersonName"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/gender_lbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Gender: "
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/gender_field"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"/>
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                android:id="@+id/add_patient_info_btn"
+=======
+                android:id="@+id/addPatientBtn"
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Add Patient" />
+
+            <Button
+<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
+                android:id="@+id/back_to_receptionist_add"
+=======
+                android:id="@+id/backToReceptionistFromAddPatientBtn"
+>>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Back to Receptionist Page" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
