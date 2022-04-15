@@ -28,6 +28,14 @@ public class Database {
                     Class.forName("org.postgresql.Driver");
                     connection = DriverManager.getConnection(url, user, pass);
                     status = true;
+
+                    if (connection == null) {
+                        status = false;
+                    }
+                    else {
+                        status = true;
+                    }
+
                     System.out.println("connected: " + status);
                 } catch (Exception e) {
                     status = false;
@@ -46,13 +54,12 @@ public class Database {
     }
 
     public Connection getExtraConnection() {
-        Connection c = null;
         try {
             Class.forName("org.postgresql.Driver");
-            c = DriverManager.getConnection(url,user,pass);
+            return DriverManager.getConnection(url,user,pass);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return c;
+        return null;
     }
 }
