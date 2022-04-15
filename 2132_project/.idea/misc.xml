@@ -20,6 +20,8 @@
         <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Users/klick/Desktop/csi2132project/CSI-2132-Project/2132_project/app/src/main/res/layout/activity_receptionist.xml" value="0.3671875" />
         <entry key="app/src/main/res/layout/activity_addPatient.xml" value="0.16894630192502533" />
+        <entry key="app/src/main/res/layout/activity_add_patient_info.xml" value="0.18072916666666666" />
+        <entry key="app/src/main/res/layout/activity_dentist.xml" value="0.18072916666666666" />
       </map>
     </option>
   </component>

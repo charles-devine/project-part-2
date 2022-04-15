@@ -75,14 +75,9 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
                     android:hint="Optional"
                     android:inputType="textPersonName"
                     tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
-=======
-                    android:inputType="textPersonName"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -108,11 +103,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-=======
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -137,14 +128,9 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    android:inputType="textPersonName"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-=======
                     android:hint="Optional"
                     android:inputType="textPersonName"
                     tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -170,11 +156,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-=======
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -200,11 +182,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-=======
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -254,11 +232,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-=======
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -309,13 +283,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    android:inputType="textPersonName"/>
-
-=======
                     android:inputType="textPersonName"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -340,13 +309,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
-                    android:inputType="textPersonName"/>
-
-=======
                     android:inputType="textPersonName"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
             </LinearLayout>
 
             <Space
@@ -406,21 +370,13 @@
                 android:layout_height="25dp" />
 
             <Button
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
                 android:id="@+id/add_patient_info_btn"
-=======
-                android:id="@+id/addPatientBtn"
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Add Patient" />
 
             <Button
-<<<<<<< HEAD:2132_project/app/src/main/res/layout/activity_add_patient_info.xml
                 android:id="@+id/back_to_receptionist_add"
-=======
-                android:id="@+id/backToReceptionistFromAddPatientBtn"
->>>>>>> ad2d7c73b265b8bdf7bc72fb74c14b8e8d90316d:2132_project/app/src/main/res/layout/activity_add_patient.xml
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:text="Back to Receptionist Page" />
