@@ -13,7 +13,7 @@ public class Patient {
     private String gender;
     private String email;
     private String dateOfBirth;
-    private String insurance;
+    private boolean insurance;
 
     public Patient(
         String firstName,
@@ -28,7 +28,7 @@ public class Patient {
         String gender,
         String email,
         String dateOfBirth,
-        String insurance
+        boolean insurance
     ) {
         this.firstName = firstName;
         this.middleName = middleName;
@@ -44,7 +44,6 @@ public class Patient {
         this.dateOfBirth = dateOfBirth;
         this.insurance = insurance;
     }
-
 
     public String getFirstName() {
         return firstName;
@@ -94,7 +93,7 @@ public class Patient {
         return dateOfBirth;
     }
 
-    public String getInsurance() {
+    public boolean getInsurance() {
         return insurance;
     }
 }

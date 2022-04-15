@@ -304,13 +304,16 @@
                     android:text="Insurance: "
                     android:textSize="20sp" />
 
-                <EditText
+                <ToggleButton
                     android:id="@+id/insurance_field"
-                    android:layout_width="250dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:textAllCaps="false"
+                    android:textOff="No"
+                    android:textOn="Yes" />
+
             </LinearLayout>
 
             <Space
@@ -334,8 +337,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint=" mm/dd/yyyy"
-                    android:inputType="textPersonName"/>
+                    android:hint="dd/mm/yyyy"
+                    android:inputType="textPersonName" />
             </LinearLayout>
 
             <Space

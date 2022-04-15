@@ -8,19 +8,18 @@ public class Util {
 
     public static void alert(String message, Context context) {
         AlertDialog dialog = new AlertDialog.Builder(context)
-                .setTitle("Alert")
-                .setMessage(message)
-                .setPositiveButton(
-                        "OK",
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        }
-                )
-                .create();
+            .setTitle("Alert")
+            .setMessage(message)
+            .setPositiveButton(
+                "OK",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                }
+            )
+            .create();
         dialog.show();
     }
-
 }
