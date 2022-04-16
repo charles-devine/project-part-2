@@ -1,4 +1,15 @@
-# project-part-2
+# CSI 2132 - Deliverable 2
+
+NOTE: 
+
+```
+1. UI is functional 
+2. Database is fully functional 
+3. UI connection to Database is NOT functional 
+4. Database calls within Android Studio (UI backend) is functional, but main connection does not work. 
+
+See examples of DB connection and Connecting Android Studio values to the PostGreSQL server-side below. 
+```
 
 DATABASE.JAVA
 
