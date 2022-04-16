@@ -2,6 +2,7 @@ package com.example.a2132_project;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Database {
 
@@ -18,6 +19,8 @@ public class Database {
         this.url = String.format(this.url, this.host, this.port, this.database);
         connect();
         System.out.println("connection status: " + status);
+        getExtraConnection();
+        System.out.println("getExtraConnection status: " + status);
     }
 
     private void connect() {
@@ -29,14 +32,8 @@ public class Database {
                     connection = DriverManager.getConnection(url, user, pass);
                     status = true;
 
-                    if (connection == null) {
-                        status = false;
-                    }
-                    else {
-                        status = true;
-                    }
-
                     System.out.println("connected: " + status);
+
                 } catch (Exception e) {
                     status = false;
                     System.out.print(e.getMessage());
@@ -54,12 +51,15 @@ public class Database {
     }
 
     public Connection getExtraConnection() {
+
+        Connection conn = null;
         try {
-            Class.forName("org.postgresql.Driver");
-            return DriverManager.getConnection(url,user,pass);
-        } catch (Exception e) {
-            e.printStackTrace();
+            conn = DriverManager.getConnection(url, user, pass);
+            System.out.println("Connected to the PostGreSQL server successfully");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
         }
-        return null;
+        return conn;
     }
+
 }

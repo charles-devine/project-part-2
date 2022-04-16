@@ -30,43 +30,6 @@ public class DentistActivity extends AppCompatActivity {
 
         // spinner
 
-        patient_list = (Spinner) findViewById(R.id.pat_spinner_id);
-        ArrayList<String> patient_id_list = new ArrayList<>();
-
-        Database db = new Database();
-
-        try {
-            Connection conn = db.getExtraConnection();
-            Statement stmt = conn.createStatement();
-
-            ResultSet rset = stmt.executeQuery(
-                    "SELECT user_id " +
-                            "FROM Patient ");
-
-            while (rset.next()) {
-                int uid = rset.getInt("user_id");
-                // do whatever you need to do to put the uid values into the scroll wheel?
-                patient_id_list.add(((Integer) uid).toString());
-            }
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(DentistActivity.this, android.R.layout.simple_spinner_item, patient_id_list);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        patient_list.setAdapter(adapter);
-        patient_list.setOnItemSelectedListener(
-                new AdapterView.OnItemSelectedListener() {
-                    @Override
-                    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                        user_id = patient_list.getSelectedItem().toString();
-                    }
-
-                    @Override
-                    public void onNothingSelected(AdapterView<?> adapterView) {}
-                }
-        );
-
         /* view records */
         view_records = (Button) findViewById(R.id.view_patient_information);
         view_records.setOnClickListener(
