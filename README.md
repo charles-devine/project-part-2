@@ -14,6 +14,7 @@
 2. Database is fully functional 
 3. UI connection to Database is NOT functional 
 4. Database calls within Android Studio (UI backend) is functional, but main connection does not work. 
+5. SQL.pdf --> all of our sql code
 
 See examples of DB connection and Connecting Android Studio values to the PostGreSQL server-side below. 
 ```
