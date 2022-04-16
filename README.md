@@ -3,7 +3,7 @@
 ## INCLUDED IN THE REPO: 
 ```
 1. Project folder with all files used 
-2. Folder with all Java and XML files (stylesheets, html for Android Studio)
+2. Folders with all Java and XML files (stylesheets, html for Android Studio)
 3. APK "app-debug.apk", "output-metadata.json"
 4. README.md
 ```
