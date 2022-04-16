@@ -1,7 +1,14 @@
 # CSI 2132 - Deliverable 2
 
-NOTE: 
+## INCLUDED IN THE REPO: 
+```
+1. Project folder with all files used 
+2. Folders with all Java and XML files (stylesheets, html for Android Studio)
+3. APK "app-debug.apk", "output-metadata.json"
+4. README.md
+```
 
+## NOTE: 
 ```
 1. UI is functional 
 2. Database is fully functional 
@@ -11,8 +18,7 @@ NOTE:
 See examples of DB connection and Connecting Android Studio values to the PostGreSQL server-side below. 
 ```
 
-DATABASE.JAVA
-
+## DATABASE.JAVA
 ```java
 
 package com.example.a2132_project;
@@ -81,8 +87,7 @@ public class Database {
 
 }
  ```
-AddPatientInfo (Database instance usage): 
-
+## AddPatientInfo (Database instance usage): 
 ```java
         /* set appointment activity */
         add_patient = (Button) findViewById(R.id.add_patient_info_btn);
